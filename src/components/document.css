@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: bisque;
+    color: black;
+}
+.footer{
+
+  width:100%;
+  position: absolute;
+  bottom: 0px; 
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.footer-social a {
+    align-items: center;
+    margin-left: 50%;
+  }
+  .footer-social img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-address {
+    text-align: right;
+  }
+  .horizontal-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    display: block;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+  }
+  .horizontal-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+  }
+  .home-nav{
+    position: relative;
+    right: -450px;
+    top: 13px;
+  }

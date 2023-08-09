@@ -1,0 +1,66 @@
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+   
+  
+  .container {
+    display: flex;
+  }
+  
+   
+  
+  .carousel-column {
+    flex: 1;
+    background-color: #f0f0f0;
+  }
+  
+   
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+   
+  
+  .carousel img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+   
+  
+  .text-column {
+    flex: 1;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+   
+  
+  .special-text {
+    text-align: center;
+  }
+  
+   
+  
+  .special-text h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+   
+  
+  .special-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }

@@ -1,0 +1,60 @@
+.userbody{
+    position: relative;
+    top: 150px;
+    right: 100px;
+    float:right;
+    background-image: linear-gradient(to bottom right, #B8F4F4, #6CA9A9);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+}
+.iluserbody{
+    position: relative;
+    top: 150px;
+    right: 100px;
+    float:right;
+    background-image: linear-gradient(to bottom right, #D54D4D, #8CCCD0);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+}
+.ttuserbody{
+    position: relative;
+    top: 150px;
+    right: 100px;
+    float:right;
+    background-image: linear-gradient(45deg,  #7574A8,#D0D871);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+}
+.ul_image{
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 645px;
+}
+
+.userbody h3{
+    line-height: 2;
+}
+.username{
+    
+    margin-bottom: 10px;
+}
+.password{
+    margin-bottom: 10px;
+}
+.button_login{
+    margin-bottom: 10px;
+}
+button{
+    list-style: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+}
+.icons{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,69 @@
+.rbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("C:\Users\surabhi.rajalaveera\Desktop\pws\pws\src\images\register.png");
+    background-size: 100% 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .Hrregister {
+    padding: 20px;
+    border: 3px solid #78d5b1;
+    border-radius: 5px;
+    box-shadow: 10 10 10px rgba(2, 2, 2, 0.2);
+    background-color: #fff;
+    background-image: linear-gradient(45deg,  #8EF0F6,#54DF3D);
+    opacity: 90%;
+  }
+  .Itregister{
+    padding: 20px;
+    border: 3px solid #78d5b1;
+    border-radius: 5px;
+    box-shadow: 10 10 10px rgba(2, 2, 2, 0.2);
+    background-color: #fff;
+    background-image: linear-gradient(45deg,  #F2D191,#EF5600);
+    opacity: 90%;
+  }
+  .Ttregister{
+    padding: 20px;
+    border: 3px solid #78d5b1;
+    border-radius: 5px;
+    box-shadow: 10 10 10px rgba(2, 2, 2, 0.2);
+    background-color: #fff;
+    background-image: linear-gradient(45deg,  #2CCBEE,#E65252);
+    opacity: 90%;
+  }
+  .ricons {
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  .sicon{
+    font-size: 1.5rem;
+  }
+  .rname {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+  
+  .form-check-label {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .b_signin {
+    background-color: #2CCBEE;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .b_signin:hover {
+    background-color: white;
+  }
+  
