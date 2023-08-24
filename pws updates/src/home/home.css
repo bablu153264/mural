@@ -1,0 +1,128 @@
+.landingpage{
+    width: 100%;
+    height: 100%;
+}
+.homeheader{
+    width: 100%;
+    height: 60px;
+    background-color: #4682A9;
+    position: fixed;
+    z-index: 100;
+}
+.headerpwslogo{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 8%;
+    height: 50px;
+}
+.headercomponents{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    gap: 35px;
+    position: relative;
+    top: 25%;
+    left: 75%;
+    font-size: 20px;
+}
+.eventsbutton{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.aboutusbutton{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.landingusericon{
+    font-size: 2rem;
+}
+
+.a{
+    text-decoration: none;
+}
+
+#landingloginpagebutton{
+    cursor: pointer;
+    position: absolute;
+    left: 17%;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.homemiddle{
+    width: 100%;
+    height: 350%;
+    padding: 0px;
+    position: absolute;
+    top: 9%;
+    /* background-color: #91C8E4; */
+}
+.landingevents{
+    position: relative;
+    top: 0px;
+}
+#director{
+    width: 100%;
+    position: relative;
+    top: 5%;
+}
+
+
+
+
+
+
+
+.landingpagefooter{
+    width: 100%;
+    height: 260px;
+    background-color: #4682A9;
+    position: absolute;
+    bottom: -270%;
+    overflow: hidden; 
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 50vh; */
+  
+}
+.footerpwslogo{
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+.footerpws{
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+.footercontact{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+.footercontact h4{
+    text-decoration: underline;
+}
+.footerlocation{
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    width: 30%;
+}
+.footershare{
+    position: relative;
+    top: 2320px;
+    left: -30%;
+    z-index: 10;
+}
+.perficientlocation{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 200px;
+}

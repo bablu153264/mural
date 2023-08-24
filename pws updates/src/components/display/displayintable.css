@@ -1,0 +1,58 @@
+/* modified-displayintable.css */
+
+#custom-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+  /* background-color: #ffffff; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#custom-table th,
+#custom-table td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6;
+}
+
+#custom-table th {
+  background-color: #91C8E4;
+}
+
+#custom-file-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#custom-file-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+#custom-file-item img {
+  color: white;
+  background-color: #dee2e6;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+/* Add any additional styling here */
+
+/* You can define media queries for responsive design */
+@media (max-width: 768px) {
+  #custom-table {
+    max-width: 90%;
+  }
+}

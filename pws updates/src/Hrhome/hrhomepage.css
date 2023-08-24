@@ -1,0 +1,260 @@
+:root {
+  --main-bg-color: #4682a9;
+
+  --highlight-bg-color: #91c8e4;
+}
+
+.hrhomenavigation {
+  width: 20%;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  position: fixed;
+  top: 0;
+  left: 0; 
+  overflow: hidden;
+}
+
+.hrhomeprofile {
+  width: 100%;
+
+  height: 35vh;
+
+  background-color: #f6f4eb;
+}
+
+.hrhomeusericon {
+  width: 100%;
+
+  height: 20vh;
+
+  max-width: 110px;
+
+  border-radius: 100%;
+
+  background-color: grey;
+
+  border-color: black;
+
+  object-fit: fill;
+
+  position: absolute;
+
+  left: 25%;
+}
+
+.hrhomename {
+  position: relative;
+
+  top: 130px;
+
+  left: 40%;
+}
+
+.hrhomeempid {
+  position: relative;
+
+  top: 130px;
+
+  left: 40%;
+}
+
+/* .hrhomeeditprofilebutton {
+  text-decoration: none;
+
+  background-color: #f6f4eb;
+
+  border: 0px;
+
+  position: relative;
+
+  top: 100px;
+
+  left: 80%;
+} */
+
+.hrhomeprofileediticon {
+  font-size: 1.5rem;
+}
+
+.componenticon {
+  position: relative;
+  left: -20%;
+  font-size: 1.3rem;
+}
+
+.componenticon1{
+  position: relative;
+  left: -30%;
+  font-size: 1.3rem;
+}
+.componentnames {
+  position: relative;
+  font-size: 80%;
+  text-align: left;
+}
+
+.hrhomemyprofile,
+.hrhomedocument,
+.hrhomeattendance,
+.hrhomeuserdetails,
+.hrhomesupport,
+.hrhomemylogout {
+  width: 100%;
+
+  text-decoration: none;
+
+  color: black;
+
+  background: var(--main-bg-color);
+
+  padding: 14px 50px;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  border: solid 0px var(--main-bg-color);
+}
+
+.hrhomemyprofile:hover,
+.hrhomedocument:hover,
+.hrhomeattendance:hover,
+.hrhomeuserdetails:hover,
+.hrhomesupport:hover,
+.hrhomemylogout:hover {
+  transition: 0.4s ease-in-out;
+
+  background: var(--highlight-bg-color);
+}
+
+@media screen and (max-width: 768px) {
+  .hrhomenavigation {
+    width: 100%;
+  }
+
+  .hrhomeprofileediticon {
+    font-size: 1rem;
+  }
+
+  .hrhomeeditprofilebutton {
+    left: 70%;
+  }
+
+  /* .componenticon {
+    left: 5%;
+
+    font-size: 1rem;
+  } */
+}
+
+.hrhomecomponents-wrapper {
+  max-height: calc(100vh - 35vh); /* Adjust this value as needed */
+  overflow-y: auto;
+}
+
+/* view filesbutton */
+.documnetviewfiles {
+  width: 100%;
+  font-size: 70%;
+  text-decoration: none;
+  color: black;
+  background: #4682a9;
+  padding: 10px 53px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 0px #4682a9;
+}
+.documnetviewfiles:hover {
+  transition: 0.4s ease-in-out;
+  background: #91c8e4;
+}
+
+/* view Feedback */
+.documentviewfeedback {
+  width: 100%;
+  font-size: 70%;
+  text-decoration: none;
+  color: black;
+  background: #4682a9;
+  padding: 10px 53px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 0px #4682a9;
+}
+.documentviewfeedback:hover {
+  transition: 0.4s ease-in-out;
+  background: #91c8e4;
+}
+
+/* enable feedback */
+.documnetenablefeedback {
+  width: 100%;
+  font-size: 70%;
+  text-decoration: none;
+  color: black;
+  background: #4682a9;
+  padding: 10px 53px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 0px #4682a9;
+}
+.documnetenablefeedback:hover {
+  transition: 0.4s ease-in-out;
+  background: #91c8e4;
+}
+
+/* view ticket button */
+.supportviewticket {
+  width: 100%;
+  font-size: 70%;
+  text-decoration: none;
+  color: black;
+  background: #4682a9;
+  padding: 10px 53px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 0px #4682a9;
+}
+.supportviewticket:hover {
+  transition: 0.4s ease-in-out;
+  background: #91c8e4;
+}
+
+/* ticket history button */
+.supporttickethistory {
+  width: 100%;
+  font-size: 70%;
+  text-decoration: none;
+  color: black;
+  background: #4682a9;
+  padding: 10px 53px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 0px #4682a9;
+}
+.supporttickethistory:hover {
+  transition: 0.4s ease-in-out;
+  background: #91c8e4;
+}
+
+.container{
+  width: calc(75%); /* Adjust this value to control the container width */
+  margin: 0 auto;
+  padding-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

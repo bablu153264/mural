@@ -1,0 +1,104 @@
+.directorcard1{
+    width: 40%;
+    height: 40vh;
+    background-color: #F6F4EB;
+    position: absolute;
+    left: 5%;
+}
+.directorcard2{
+    width: 40%;
+    height: 40vh;
+    background-color: #F6F4EB;
+    position: absolute;
+    top: 0%;
+    left: 55%;
+}
+.directorcard3{
+    width: 40%;
+    height: 45vh;
+    background-color: #F6F4EB;
+    position: absolute;
+    top: 300px;
+    left: 5%;
+}
+
+.directorcard4{
+    width: 40%;
+    height: 45vh;
+    background-color: #F6F4EB;
+    position: absolute;
+    top: 300px;
+    left: 55%;
+}
+.headercolour{
+    background-color: #749BC2;
+    height: 10vh;
+    width: 100%;
+    z-index: -1;
+}
+.jeff{
+    font-size: 30px;
+    color: #F6F4EB;
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+.tom{
+    font-size: 30px;
+    color: #F6F4EB;
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+.paul{
+    font-size: 30px;
+    color: #F6F4EB;
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+.santosh{
+    font-size: 30px;
+    color: #F6F4EB;
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+.directorimage{
+    width: 20%;
+    height: 15vh;
+    z-index: 10;
+    position: relative;
+    top: -20%;
+    left: 5%;
+}
+.divimage{
+    width: 100%;
+    object-fit: cover;
+}
+.divimage4{
+    width: 100%;
+    object-fit: fill;
+}
+.quotes{
+    width: 10%;
+    height: 10vh;
+    position: relative;
+    top: -25%;
+    left: 30%;
+}
+.quotesimage{
+    width: 100%;
+    object-fit: cover;
+}
+.directorcontent{
+    position: relative;
+    top: -40%;
+}
+.indent {
+    text-indent: 40%;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
